@@ -24,6 +24,7 @@ function App() {
         <input
           id="firstName"
           name="firstName"
+          type="text"
           value={formData.firstName}
           required
           onChange={(e) =>
@@ -39,6 +40,7 @@ function App() {
         <input
           id="lastName"
           name="lastName"
+          type="text"
           value={formData.lastName}
           required
           onChange={(e) =>
